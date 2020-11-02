@@ -67,13 +67,3 @@ def calculate_week(given, calculated):
     index = days.index(given) + 1
 
     return days[(index+calculated) % 7 - 1]
-
-
-if __name__ == "__main__":
-    add_time("11:30 PM", "00:40")
-
-
-#toDo
-# WeekDays
-# AM and PM config
-# 0 and 12
